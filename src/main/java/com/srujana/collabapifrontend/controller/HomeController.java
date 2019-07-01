@@ -15,9 +15,5 @@ public class HomeController {
 	{
 		return "hello";
 	}
-	@RequestMapping("/testing")
-	public String test2()
-	{
-		return "hello";
-	}
+	
 }

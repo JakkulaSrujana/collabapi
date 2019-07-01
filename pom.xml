@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+ <modelVersion>4.0.0</modelVersion>
   <groupId>com.srujana</groupId>
   <artifactId>collabapi</artifactId>
   <packaging>war</packaging>
@@ -8,6 +8,14 @@
   <name>collabapi Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <dependency>
+  <groupId>com.srujana</groupId>
+  <artifactId>collabapibackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ 
+
+  
+  </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -27,16 +35,18 @@
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
 <dependency>
-   <groupId>com.fasterxml.jackson.core</groupId>
-   <artifactId>jackson-core</artifactId>
-   <version>2.9.9</version>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.0.pr2</version>
 </dependency>
-   <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 <dependency>
-   <groupId>com.fasterxml.jackson.core</groupId>
-   <artifactId>jackson-databind</artifactId>
-   <version>2.9.9</version>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.0.pr2</version>
 </dependency>
+
 
   </dependencies>
   <build>

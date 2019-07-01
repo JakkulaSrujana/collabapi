@@ -1,4 +1,4 @@
-package com.srujana.collabapi.controller;
+package com.srujana.collabapifrontend.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
